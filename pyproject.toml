@@ -1,0 +1,34 @@
+# TODO!
+[tool.poetry]
+name = "python-library-graph"
+version = "0.1.0"
+description = "An interactive 3D visualization tool for Python dependencies, illustrating relationships, structural communities, and package metrics using a knowledge graph approach"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/yourusername/python-library-graph" # Replace with your actual URL
+repository = "https://github.com/yourusername/python-library-graph" # Replace with your actual URL
+keywords = ["dependency", "graph", "visualization", "community", "plotly", "networkx"]
+packages = [{include = "python_library_graph", from = "."}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+networkx = ">=3.0"
+plotly = ">=5.0"
+pipreqs = ">=0.4.0"
+kaleido = ">=0.2.1"
+pipdeptree = ">=2.3.0"
+# python-louvain is made optional and is grouped below
+python-louvain = {version = ">=0.14", optional = true} 
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.0"
+unittest-xml-reporting = "*"
+
+# --- Console Scripts Entry Point ---
+[tool.poetry.scripts]
+"python-graph" = "python_library_graph.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
