@@ -6,7 +6,7 @@ Visualize your Python project's dependencies and analyze their structure with in
 
 ---
 
-## ✨ Features
+## Features
 
 - **Interactive 3D Visualization**  
   Explore dependency networks using a browser-based interactive Plotly chart.
@@ -22,14 +22,14 @@ Visualize your Python project's dependencies and analyze their structure with in
 
 ---
 
-## 📦 Installation
+## Installation
 
 You can install **python-library-graph** directly from PyPI (once published - TBD):
 
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Navigate to the root directory of your Python project (the one containing your `requirements.txt` or where dependencies are installed), then run:
 
@@ -53,14 +53,14 @@ Navigate to the root directory of your Python project (the one containing your `
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**.  
 See the `LICENSE` file for details.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!  
 Please open an issue or submit a pull request on the GitHub repository.
